@@ -1,64 +1,83 @@
 <!doctype html>
 <html class="js" lang="es">
 
-  <head>
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
-    <meta charset="utf-8">
-    <title>Cervecería Gerard: Portada</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<head>
+  <link rel="shortcut icon" href="assets/img/favicon.ico" />
+  <meta charset="utf-8">
+  <title>Cervecería Gerard: Portada</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-  <body>
-    <!-- Barra de navegación -->
-    <header>
+<body>
+  <!-- Título principal -->
+  <header>
+    <div class="header">
+      <div class="header2">
         <h1>La Cerveseria de Gerard</h1>
-        <nav><h2><ul>
-        <li>Portada</li>
-        <li><a href="paginas/categoria.html" title="">Categoría</a></li>
-        <li><a href="paginas/presentación.html" title="">Presentación</a></li>
-        <li><a href="paginas/enlaces.html" title="">Enlaces</a></li>
-        </ul></h2></nav>
         <cite>Imagen vinculada a la web <a href="https://neodrinks.com/variedades-de-cerveza/">NeoDrinks</a></cite>
-    </header>
-    
-    <br>
-    <!-- Cuerpo del articulo -->
-    <section>
-      <h1>Benvinguts a la cerveseria del Gerard!</h1>
-    </section>
-    <section>
-      <div class="bloc">
-        <div class="boxesquerra">
+      </div>
+    </div>
+  </header>
+
+  <!-- Cuerpo -->
+  <main>
+    <article>
+      <header>
+        <h2>Benvinguts a la cerveseria del Gerard!</h2>
+      </header>
+      <section>
+        <div class="bloc">
+          <div class="boxesquerra">
             <p>Soy Gerard Vidal, creador y promotor la cervecería del Gerard! </p>
             <p>El objetivo de este bloc es: <br>
-              <a href="paginas/categoria.html">¡introducirte en el apasionante mundo de la Cerveza!</a></p>
+              <a href="categoria.html">¡introducirte en el apasionante mundo de la Cerveza!</a>
+            </p>
             <p>Si quieres saber más sobre el funcionamiento de la cervecería del Gerard, échale un vistazo a <br>
-              <a href="paginas/presentación.html">¡la presentación del bloc!</a></p>
-            <p>Toda la información y imagenes que utilizamos en esta web están vinculadas a su pagina de origen. Visita el <br>
-              <a href="paginas/enlaces.html">¡listado de enlaces!</a> </p>
+              <a href="presentacion.html">¡la presentación del bloc!</a>
+            </p>
+            <p>Toda la información y imagenes que utilizamos en esta web están vinculadas a su pagina de origen. Visita
+              el
+              <br>
+              <a href="enlaces.html">¡listado de enlaces!</a>
+            </p>
+          </div>
+          <div class="boxdreta amplia sombra-imganim1">
+            <img class="imgdreta clip-imganim1" src="assets/img/cerveza-helada-1024x646.jpg"
+              alt="Imagen: Cerveza helada">
+            <cite class="textencima"><a href="https://laroussecocina.mx/nota/la-cerveza-se-toma-helada-3/">Imagen
+                vinculada
+                a la web laroussecocina</a></cite>
+          </div>
         </div>
-        <div class="boxdreta amplia">
-            <img class="imgdreta" src="assets/img/cerveza-helada-1024x646.jpg" alt="Imagen: Cerveza helada" title="Imagen: Cerveza helada">
-            <cite class="textencima"><a href="https://laroussecocina.mx/nota/la-cerveza-se-toma-helada-3/">Imagen vinculada a la web laroussecocina</a></cite>
-        </div>
-      </div>
-    </section>
+      </section>
+    </article>
+  </main>
 
-    <!-- Pie de página -->
-    <footer>
-        <p>Todo los derechos de autor y links de los contenidos de este sitio web se pueden encontrar en el apartado <a style="color: aliceblue;" href="paginas/enlaces.html">enlaces</a>.</p>
-        <br>
-        <p>Proyecto asociado al master universitario desarrollo de entornos web y aplicaciones (UOC), asignatura M4.257 - Herramientas HTML y CSS aula 1 </p>
-        <p>Alumno: Gerard Vidal</p>
-    </footer>
+  <!-- Pie de página -->
+  <footer>
+    <nav>
+      <ul>
+        <li class="activa"><a href="index.html" >Portada</a>
+        <li><a href="categoria.html" >Categoría</a></li>
+        <li><a href="presentacion.html" >Presentación</a></li>
+        <li><a href="enlaces.html" >Enlaces</a></li>
+      </ul>
+    </nav>
+    <br>
+    <p>Todo los derechos de autor y links de los contenidos de este sitio web se pueden encontrar en el apartado
+      enlaces.</p>
+    <p>Proyecto asociado al master universitario desarrollo de entornos web y aplicaciones (UOC), asignatura M4.257 -
+      Herramientas HTML y CSS aula 1 </p>
+    <p>Alumno: Gerard Vidal</p>
+  </footer>
 
-    <!-- Javascript: se utiliza para la ampliación de fotos a trabés de onclick -->
-    <script src="assets/js/javascript.js"></script>
-  </body>
+  <!-- Javascript: se utiliza para la ampliación de fotos a trabés de onclick -->
+  <script src="assets/js/javascript.js"></script>
+</body>
 
 </html>
